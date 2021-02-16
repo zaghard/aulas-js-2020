@@ -13,3 +13,9 @@ console.log('\nString parseada para Float:', parseFloat('13.22'));
 
 //Tranforma uma String em um Int.
 console.log('\n String parseada para Int:',parseInt('13.20'));
+
+
+//Null
+const nullVariable = null;
+
+console.log(typeof nullVariable);
