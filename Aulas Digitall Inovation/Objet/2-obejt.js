@@ -30,7 +30,7 @@ console.log('\nVariável newObj após as alterações:', newObj);
 
 //Permite apenas a alteração de propriedades existentes em um objeto.
  const person = { name: 'Mauricio'};
- Object.seal{person};
+ Object.seal(person);
 
  person.name = 'Mauricio Gonzaga';
  delete person.name;
