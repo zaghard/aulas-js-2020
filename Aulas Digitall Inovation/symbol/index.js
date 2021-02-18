@@ -32,3 +32,10 @@ console.log('Symbols registrados no objeto user:', Object.getOwnPropertySymbols(
 console.log('Todas propriedades do objeto user:', Reflect.ownKeys(user));
 
 //Cria um enum.
+const direction = {
+    UP : Symbol( 'UP' ),
+    DOWN : Symbol( 'DOWN' ),
+    LEFT : Symbol( 'LEFT' ),
+    RIGHT : Symbol( 'RIGHT' )
+
+};
