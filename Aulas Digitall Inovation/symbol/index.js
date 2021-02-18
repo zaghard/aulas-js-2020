@@ -15,3 +15,10 @@ const user = {
 
 }
 console.log(user);
+
+//Symbols criam propriedades que nao saõ enumberables
+for (const key in user){
+    if (user.hasOwnProperty(key)){
+        console.log('\nValor da chave ${key}: ${user[key]}');
+    }
+}
