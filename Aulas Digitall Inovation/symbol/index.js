@@ -22,3 +22,13 @@ for (const key in user){
         console.log('\nValor da chave ${key}: ${user[key]}');
     }
 }
+console.log('Propridades do objeto user:', Object.keys(user));
+console.log('valores das propriedades do objeto user:', Object.values(user));
+
+//Exibir symbols de um objeto.
+console.log('Symbols registrados no objeto user:', Object.getOwnPropertySymbols(user));
+
+//Acessando todas as propriedades do objeto.
+console.log('Todas propriedades do objeto user:', Reflect.ownKeys(user));
+
+//Cria um enum.
