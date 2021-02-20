@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio Strings</title>
 </head>
+
 <body>
     <script>
         const nome = prompt('Digite o seu nome completo');
-        document.body.innerHTML = 'O seu nome é: ${nome} <br />';
-        console.log(nome);
+        document.body.innerHTML += `<h1>O seu nome é: ${nome} </h1><br />`;
+        alert(nome);        
 
+        /*let d = new Date();
+        document.body.innerHTML = "<h2>Time right now is:  " + d.getHours() + ":" + d.getMinutes() + ":" + d
+        .getSeconds()
+        "</h2>"*/
     </script>
 </body>
+
 </html>
