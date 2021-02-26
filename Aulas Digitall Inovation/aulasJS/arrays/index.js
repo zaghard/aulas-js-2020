@@ -46,3 +46,17 @@ const personsWithCourse = persons.map( person =>{
 });
 
 console.log('\nPessoas com a adição do course:', personsWithCourse);
+
+//Transforma um array em outro tipo.
+const totalAge = persons.reduce((age, person) => {
+    age += person.age;
+    return age;
+}, 0);
+
+//Juntando operações
+const totalEvenAges = persons
+                        .filter(person => person.age % 2 === 0)
+                        .reduce((age, person) => {
+                            age += person.age;
+                            return age;
+                        }, 0);
