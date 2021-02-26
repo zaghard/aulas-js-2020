@@ -36,7 +36,7 @@ persons.forEach((person, index, arr) => {
 });
 //Filtrar array
 const mens = persons.filter(person => person.gender === gender.MAN);
-console.log('\nNova lista apenas com homens:', mens);
+// console.log('\nNova lista apenas com homens:', mens);
 
 //Retorna um novo
 const personsWithCourse = persons.map( person =>{
@@ -45,7 +45,7 @@ const personsWithCourse = persons.map( person =>{
 
 });
 
-console.log('\nPessoas com a adição do course:', personsWithCourse);
+// console.log('\nPessoas com a adição do course:', personsWithCourse);
 
 //Transforma um array em outro tipo.
 const totalAge = persons.reduce((age, person) => {
