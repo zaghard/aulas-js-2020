@@ -43,4 +43,6 @@ const personsWithCourse = persons.map( person =>{
     person.course = 'Introdução ao Javascript';
     return person;
 
-})
+});
+
+console.log('\nPessoas com a adição do course:', personsWithCourse);
