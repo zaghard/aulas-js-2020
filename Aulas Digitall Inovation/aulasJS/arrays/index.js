@@ -61,4 +61,4 @@ const totalEvenAges = persons
                             return age;
                         }, 0);
 
-console.log('\nSoma de idades das pessoas que possuem idade par:', totalEvenAges)                        
+console.log('\nSoma de idades das pessoas que possuem idade par:', totalEvenAges);                        
